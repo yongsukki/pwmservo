@@ -54,4 +54,4 @@ try:
 
 except KeyboardInterrput:
     pwm.stop()
-       GPIO.cleanup()
+    GPIO.cleanup()
